@@ -1,43 +1,84 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
-// Siga os comentários para implementar cada parte do desafio.
+int main(){
 
-int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
+int carta1, carta2;
+int  cidade;
+float area, codigo, populacao, PIBpercapita, PIB, densidadePopulacional;
+char estado;
 
-    
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
 
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
+printf("Digite o codigo da carta1: \n");
+scanf("%s", &codigo);
+printf("Digite o estado da carta1: \n");
+scanf("%s", &estado);
+printf("Digite a cidade da carta1: \n");
+scanf("%S", &cidade);
+printf("Digite a populacao da carta1: \n");
+scanf("%f", &populacao);
+printf("Digite a area da carta1: \n");
+scanf("%f", &area);
+printf("CDigite o PIBpercapita da carta1: \n");
+scanf("%f", &PIBpercapita);
+printf("Digite o PIB da carta1: \n");
+scanf("%f", &PIB);
+printf("Digite a densidadePopulacional da carta1: \n");
+scanf("%f", &densidadePopulacional);
 
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
+printf("Digite o codigo da carta2: \n");
+scanf("%s", &codigo);
+printf("Digite o estado da carta2: \n");
+scanf("%s", &estado);
+printf("Digite a cidade da carta2: \n");
+scanf("%S", &cidade);
+printf("Digite a populacao da carta2: \n");
+scanf("%f", &populacao);
+printf("Digite a area da carta2: \n");
+scanf("%f",& area);
+printf("CDigite o PIBpercapita da carta2: \n");
+scanf("%f", &PIBpercapita);
+printf("Digite o PIB da carta2: \n");
+scanf("%f", &PIB);
+printf("Digite a densidadePopulacional da carta2: \n");
+scanf("%f", &densidadePopulacional);
 
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+if(populacao > populacao) {
+printf("cidade 1 tem maior populacao. \n");
 
-    return 0;
+}else{
+    printf("Cidade 2 tem maior populacao. \n");
 }
+
+if(area > area){
+    printf("Cidade 1 tem maior area. \n");
+
+}else{
+    printf("cidade 2 tem maior area. \n");
+}
+
+if(PIBpercapita > PIBpercapita){
+    printf("Cidade 1 tem maior PIBpercapita. \n");
+
+}else{
+    printf("Cidade 2 tem maior PIBpercapita. \n");
+}
+
+if(PIB > PIB){
+    printf("Cidade 1 tem maior PIB. \n");
+
+}else{
+    printf("Cidade 2 tem maior PIB. \n");
+}
+
+if(densidadePopulacional > densidadePopulacional){
+    printf("Cidade 1 tem maior densidadePopulacional. \n");
+
+}else{
+    printf("Cidade 2 tem maior densidadePopulacional. \n");
+}
+
+}
+
+ 
